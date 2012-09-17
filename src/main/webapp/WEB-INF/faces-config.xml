@@ -5,15 +5,7 @@
               version="2.0">
 	
 	<application>
-		<system-event-listener>
-			<system-event-listener-class>
-				org.ploin.web.faces.core.PhaseListenerInstallationListener
-			</system-event-listener-class>
-			<system-event-class>
-				javax.faces.event.PostConstructApplicationEvent
-			</system-event-class>
-		</system-event-listener>
-		<navigation-handler>org.ploin.web.faces.core.BackNavigationHandler</navigation-handler>
+		
 		<el-resolver>org.springframework.web.jsf.el.SpringBeanFacesELResolver</el-resolver>		
 		<locale-config>
 			<default-locale>en</default-locale>

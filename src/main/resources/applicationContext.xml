@@ -18,7 +18,7 @@
 						   http://jax-ws.dev.java.net/spring/servlet http://jax-ws.dev.java.net/spring/servlet.xsd"
 	   default-autowire="byName" >
 
-
+<!--  
     <bean id="propertyPlaceholder"
               class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
             <property name="ignoreUnresolvablePlaceholders" value="false"/>
@@ -87,12 +87,12 @@
 	<bean id="secureService"
 		class="org.ploin.utils.service.impl.SecureService"
 		lazy-init="false">
-		<property name="min" value="5" />                             <!-- Mindenstlaenge -->
-		<property name="max" value="20" />                            <!-- Maximallaenge -->
-		<property name="mustContainSmallCharacters" value="false" />  <!-- muessen Kleinbuchstaben im Passwort enthalten sein -->
-		<property name="mustContainBigCharacters" value="false" />    <!-- muessen Grossbuchstaben im Passwort enthalten sein -->
-		<property name="mustContainNumbers" value="false" />          <!-- muessen Zahlen im Passwort enthalten sein -->
-		<property name="mustContainSpecialSign" value="false" />      <!-- muessen Sonderzeichen im Passwort enthalten sein -->
-	</bean>
+		<property name="min" value="5" />                             
+		<property name="max" value="20" />                           
+		<property name="mustContainSmallCharacters" value="false" />  
+		<property name="mustContainBigCharacters" value="false" />   
+		<property name="mustContainNumbers" value="false" />          
+		<property name="mustContainSpecialSign" value="false" />     
+	</bean>-->
 
 </beans>
