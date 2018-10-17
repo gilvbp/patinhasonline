@@ -26,7 +26,7 @@
 	</developers>
 
 	<properties>
-		<springVersion>3.1.0.RELEASE</springVersion>
+		<springVersion>5.0.5.RELEASE</springVersion>
 		<richFacesVersion>4.1.0.Final</richFacesVersion>
 		<org.richfaces.bom.version>4.1.0.Final</org.richfaces.bom.version>
 		<hibernateVersion>4.1.6.Final</hibernateVersion>
@@ -201,7 +201,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
-			<version>5.0</version>
+			<version>${springVersion}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
